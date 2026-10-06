@@ -12,6 +12,12 @@ body{
     margin: 0px auto; 
 }
 
+.position{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
 .header{
     background-color: #ECF0FD;
     width: 100%;
@@ -298,6 +304,18 @@ body{
 
 .heading-2{
     color: #002F34;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading-2 a{
+     margin-right: 120px ;
+     text-decoration: none;
+     color: #3A77FF;
+     font-size: 16px;
+     font-weight: 700;
 }
 
 .container-2{
@@ -356,4 +374,10 @@ body{
     text-align: left;
     font-size: 15px;
     color: rgb(133, 132, 132);
+}
+
+.arrow-icon{
+    height: 20px;
+    width: 20px;
+    margin: auto;
 }
